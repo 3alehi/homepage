@@ -3,7 +3,7 @@ import React from 'react';
 const Footer: React.FC = () => {
     return (
         <div className='bg-bg-body'>
-            <div className=' lg:container mx-auto py-8 '>
+            <div className=' lg:container mx-auto py-8 max-md:px-4 text-justify '>
 
             <div className='flex items-center justify-center w-full'>
                         <img src="src\assets\Vector.webp" className='w-8 h-8' alt="" />

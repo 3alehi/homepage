@@ -8,16 +8,16 @@ import CardBox from '../components/CardBox';
 
 const Card: React.FC = () => {
     return (
-        <div className="bg-white mt-24 lg:container mx-auto px-4">
+        <div className="bg-white mt-24 max-md:mt-9 lg:container mx-auto ">
             <Swiper
-                spaceBetween={2} 
-                slidesPerView={'auto'} 
+                spaceBetween={16} // فاصله بین اسلایدها
+                slidesPerView={1.8} // نمایش بخشی از اسلاید بعدی
                 centeredSlides={false}
                 grabCursor={true}
-                slidesOffsetBefore={2}
-                slidesOffsetAfter={3}
+                slidesOffsetBefore={16} // فاصله از سمت چپ
+                slidesOffsetAfter={16} // فاصله از سمت راست
                 breakpoints={{
-                    640: { slidesPerView: 1.5 },
+                    640: { slidesPerView: 1.2 },
                     768: { slidesPerView: 2.2 },
                     1024: { slidesPerView: 3.2 }, 
                 }}

@@ -4,7 +4,7 @@ interface ButtonProps {
     icon : string
 }
 const Button: React.FC<ButtonProps> = ({title , icon}) => {
-    return <button className='bg-dark-green text-white rounded-lg px-9 py-2 flex items-center'> {icon && <i className={`${icon} ml-4`}></i>}{title}</button>
+    return <button className='bg-dark-green text-white rounded-lg px-9 py-2 flex items-center max-md:px-3 text-sm	'> {icon && <i className={`${icon} ml-4`}></i>}{title}</button>
 };
 
 export default Button;

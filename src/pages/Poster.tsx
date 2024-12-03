@@ -10,9 +10,9 @@ interface PosterProps {
 
 const Poster: React.FC<PosterProps> = ({ img, title, title2 }) => {
   return (
-   <div className='max-md:px-4'>
+   <div className='max-md:px-4 my-24 max-md:my-9'>
      <div
-      className={`mt-24 max-md:px-4 lg:container mx-auto h-96 flex items-end ${img === 1 ? 'justify-end' : "justify-start"} rounded-2xl p-6 mb-24`}
+      className={`max-md:px-4 lg:container mx-auto h-96 max-md:h-[200px] flex items-end ${img === 1 ? 'justify-end' : "justify-start"} rounded-2xl p-6`}
       style={{
         backgroundImage: `${img === 1 ? `url(${poster1})` : `url(${poster2})`}`,
         backgroundSize: 'cover',

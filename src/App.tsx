@@ -14,7 +14,6 @@ const App: React.FC = () => {
    <SelectedExperiences/>
    <Poster img={2} title='حجاب صدف است که از گوهر' title2='وجودی زن محافظت می کند.'/>
    <Footer/>
-   
     </div>
   );
 };
