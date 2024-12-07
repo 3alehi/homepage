@@ -1,0 +1,4 @@
+rounded fixed
+size in 800  tablet and labtop
+prev and next in swiper
+size btn

@@ -7,13 +7,13 @@ const Header: React.FC = () => {
             <div className='  lg:container mx-auto max-md:px-4'>
                 <div className='flex justify-between items-center'>
                     <div className='flex items-center max-md:mb-3'>
-                        <img src="src\assets\Vector.webp" className='w-8 h-8' alt="" />
-                        <img src="src\assets\Layer_1.webp" className='w-30 h-10' alt="" />
+                        <img src="src\assets\Vector.webp" className='w-8 h-8 max-md:w-6 max-md:h-6' alt="" />
+                        <img src="src\assets\Layer_1.webp" className='w-30 h-10 max-md:w-28 max-md:h-8' alt="" />
                     </div>
                     <Button title='ورود / ثبت نام' icon='icon-sign-in'/>
 
                 </div>
-                <hr className='mt-5' />
+                <hr className='mt-5 max-md:mt-3' />
                 <div className='my-8 grid grid-cols-2 max-md:grid-cols-1'>
                     <div className=' max-md:order-2'>
 <h1 className='text-[64px] font-bold text-dark-green  max-md:text-[32px]'>شبکه اجتماعی مردمی فعالان حجاب</h1>
@@ -25,8 +25,8 @@ const Header: React.FC = () => {
 
                   <Button title='به ما بپیوند' icon=''/>  
                     </div>
-                    <div className='flex justify-center items-center max-md:order-1'>
-                    <img src="src\assets\Group 7291.webp" className='h-[420px] w-[450px] max-md:w-[240.85px] max-md:h-[250px]' alt="" />
+                    <div className='flex justify-center items-center max-md:order-1 max-md:mb-4'>
+                    <img src="src\assets\Group 7291.webp" className='h-[456px] w-[426.26px] max-md:w-[159.85px] max-md:h-[171px]' alt="" />
 
                     </div>
 

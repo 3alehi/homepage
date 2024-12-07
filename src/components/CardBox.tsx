@@ -6,11 +6,12 @@ interface CardProps {
   title: string;
   desc: string;
   titleBtn: string;
+  width : string
 }
 
-const CardBox: React.FC<CardProps> = ({ icon, title, desc, titleBtn }) => {
+const CardBox: React.FC<CardProps> = ({ icon, title, desc, titleBtn , width }) => {
   return (
-    <div className="bg-bg-body w-80 max-md:w-40 max-md:h-56 flex-shrink-0 rounded-3xl py-16 px-7 max-md:px-2 max-md:py-5 flex flex-col items-center justify-center">
+    <div className="bg-bg-body  h-full w-full rounded-lg py-16 px-7 max-md:px-2 max-md:py-5 flex flex-col items-center justify-center">
       <i className={`${icon} text-6xl max-md:text-2xl	`}></i>
 
       <p className="text-2xl font-black my-3 text-center max-md:text-sm">{title}</p>
@@ -19,7 +20,7 @@ const CardBox: React.FC<CardProps> = ({ icon, title, desc, titleBtn }) => {
   {desc}
 </p>
 
-      <Button title={titleBtn} icon=""></Button>
+      <Button title={titleBtn} icon="" width={width}></Button>
     </div>
   );
 };
